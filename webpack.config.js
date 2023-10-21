@@ -57,6 +57,10 @@ const config = {
           from: path.resolve(__dirname, 'src/assets/favicon.ico'),
           to: path.resolve(__dirname, 'dist/assets/favicon.ico'),
         },
+        {
+          from: path.resolve(__dirname, 'src/_redirects'),
+          to: path.resolve(__dirname, 'dist'),
+        },
       ],
     }),
     new ESLintPlugin({ extensions: 'ts' }),
