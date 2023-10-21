@@ -30,7 +30,7 @@
     "prettier/prettier" : 2,
     "no-param-reassign":"off",
     "max-len": [2, { "code": 120, "ignoreUrls": true, "ignoreStrings": true, "ignoreTemplateLiterals": true }],
-    "linebreak-style": [2, "windows"],
+    "linebreak-style":"off",
     "object-curly-newline": 0
   },
   "root": true,
